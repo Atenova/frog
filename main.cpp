@@ -8,125 +8,125 @@ int main()
     int a,temp=0;
     cin >> a;
         switch (a / 1000000){
-    case 1: cout << "ìèëëèîí "; break;
-    case 2: cout << "äâà ìèëëèîíà "; break;
-    case 3: cout << "òðè ìèëëèîíà "; break;
-    case 4: cout << "÷åòûðå ìèëëèîíà "; break;
-    case 5: cout << "ïÿòü ìèëëèîíîâ "; break;
-    case 6: cout << "øåñòü ìèëëèîíîâ "; break;
-    case 7: cout << "ñåìü ìèëëèîíîâ "; break;
-    case 8: cout << "âîñåìü ìèëëèîíîâ "; break;
-    case 9: cout << "äåâÿòü ìèëëèîíîâ "; break;
+    case 1: cout << "Ð¼Ð¸Ð»Ð»Ð¸Ð¾Ð½ "; break;
+    case 2: cout << "Ð´Ð²Ð° Ð¼Ð¸Ð»Ð»Ð¸Ð¾Ð½Ð° "; break;
+    case 3: cout << "Ñ‚Ñ€Ð¸ Ð¼Ð¸Ð»Ð»Ð¸Ð¾Ð½Ð° "; break;
+    case 4: cout << "Ñ‡ÐµÑ‚Ñ‹Ñ€Ðµ Ð¼Ð¸Ð»Ð»Ð¸Ð¾Ð½Ð° "; break;
+    case 5: cout << "Ð¿ÑÑ‚ÑŒ Ð¼Ð¸Ð»Ð»Ð¸Ð¾Ð½Ð¾Ð² "; break;
+    case 6: cout << "ÑˆÐµÑÑ‚ÑŒ Ð¼Ð¸Ð»Ð»Ð¸Ð¾Ð½Ð¾Ð² "; break;
+    case 7: cout << "ÑÐµÐ¼ÑŒ Ð¼Ð¸Ð»Ð»Ð¸Ð¾Ð½Ð¾Ð² "; break;
+    case 8: cout << "Ð²Ð¾ÑÐµÐ¼ÑŒ Ð¼Ð¸Ð»Ð»Ð¸Ð¾Ð½Ð¾Ð² "; break;
+    case 9: cout << "Ð´ÐµÐ²ÑÑ‚ÑŒ Ð¼Ð¸Ð»Ð»Ð¸Ð¾Ð½Ð¾Ð² "; break;
     case 0: cout << ""; break;
         }
     a = a % 1000000;
     switch (a / 100000){
     case 0: cout << ""; break;
-    case 1: cout << "ñòî "; break;
-    case 2: cout << "äâåñòè "; break;
-    case 3: cout << "òðèñòà "; break;
-    case 4: cout << "÷åòûðåñòà "; break;
-    case 5: cout << "ïÿòüñîò "; break;
-    case 6: cout << "øåñòüñîò "; break;
-    case 7: cout << "ñåìüñîò "; break;
-    case 8: cout << "âîñåìüñîò "; break;
-    case 9: cout << "äåâÿòüñîò "; break;
+    case 1: cout << "ÑÑ‚Ð¾ "; break;
+    case 2: cout << "Ð´Ð²ÐµÑÑ‚Ð¸ "; break;
+    case 3: cout << "Ñ‚Ñ€Ð¸ÑÑ‚Ð° "; break;
+    case 4: cout << "Ñ‡ÐµÑ‚Ñ‹Ñ€ÐµÑÑ‚Ð° "; break;
+    case 5: cout << "Ð¿ÑÑ‚ÑŒÑÐ¾Ñ‚ "; break;
+    case 6: cout << "ÑˆÐµÑÑ‚ÑŒÑÐ¾Ñ‚ "; break;
+    case 7: cout << "ÑÐµÐ¼ÑŒÑÐ¾Ñ‚ "; break;
+    case 8: cout << "Ð²Ð¾ÑÐµÐ¼ÑŒÑÐ¾Ñ‚ "; break;
+    case 9: cout << "Ð´ÐµÐ²ÑÑ‚ÑŒÑÐ¾Ñ‚ "; break;
     }
     a=a%100000;
     if (a/10000 != 1){
     switch (a / 10000){
-    case 2: cout << "äâàäöàòü "; break;
-    case 3: cout << "òðèäöàòü "; break;
-    case 4: cout << "ñîðîê "; break;
-    case 5: cout << "ïÿòüäåñÿò "; break;
-    case 6: cout << "øåñòüäåñÿò "; break;
-    case 7: cout << "ñåìüäåñÿò "; break;
-    case 8: cout << "âîñåìüäåñÿò "; break;
-    case 9: cout << "äåâÿíîñòî "; break;
+    case 2: cout << "Ð´Ð²Ð°Ð´Ñ†Ð°Ñ‚ÑŒ "; break;
+    case 3: cout << "Ñ‚Ñ€Ð¸Ð´Ñ†Ð°Ñ‚ÑŒ "; break;
+    case 4: cout << "ÑÐ¾Ñ€Ð¾Ðº "; break;
+    case 5: cout << "Ð¿ÑÑ‚ÑŒÐ´ÐµÑÑÑ‚ "; break;
+    case 6: cout << "ÑˆÐµÑÑ‚ÑŒÐ´ÐµÑÑÑ‚ "; break;
+    case 7: cout << "ÑÐµÐ¼ÑŒÐ´ÐµÑÑÑ‚ "; break;
+    case 8: cout << "Ð²Ð¾ÑÐµÐ¼ÑŒÐ´ÐµÑÑÑ‚ "; break;
+    case 9: cout << "Ð´ÐµÐ²ÑÐ½Ð¾ÑÑ‚Ð¾ "; break;
     case 0: cout << ""; break;
     }
     a = a % 10000;
     switch (a/1000){
-    case 0: cout << "òûñÿ÷ "; break;
-    case 1: cout << "îäíà òûñÿ÷à "; break;
-    case 2: cout << "äâå òûñÿ÷è "; break;
-    case 3: cout << "òðè òûñÿ÷è "; break;
-    case 4: cout << "÷åòûðå òûñÿ÷è "; break;
-    case 5: cout << "ïÿòü òûñÿ÷ "; break;
-    case 6: cout << "øåñòü òûñÿ÷ "; break;
-    case 7: cout << "ñåìü òûñÿ÷ "; break;
-    case 8: cout << "âîñåìü òûñÿ÷ "; break;
-    case 9: cout << "äåâÿòü òûñÿ÷ "; break;
+    case 0: cout << "Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 1: cout << "Ð¾Ð´Ð½Ð° Ñ‚Ñ‹ÑÑÑ‡Ð° "; break;
+    case 2: cout << "Ð´Ð²Ðµ Ñ‚Ñ‹ÑÑÑ‡Ð¸ "; break;
+    case 3: cout << "Ñ‚Ñ€Ð¸ Ñ‚Ñ‹ÑÑÑ‡Ð¸ "; break;
+    case 4: cout << "Ñ‡ÐµÑ‚Ñ‹Ñ€Ðµ Ñ‚Ñ‹ÑÑÑ‡Ð¸ "; break;
+    case 5: cout << "Ð¿ÑÑ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 6: cout << "ÑˆÐµÑÑ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 7: cout << "ÑÐµÐ¼ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 8: cout << "Ð²Ð¾ÑÐµÐ¼ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 9: cout << "Ð´ÐµÐ²ÑÑ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
     }
     }
     else{
             a = a% 100000;
         switch (a/1000){
-    case 10: cout << "äåñÿòü òûñÿ÷ "; break;
-    case 11: cout << "îäèííàäöàòü òûñÿ÷ "; break;
-    case 12: cout << "äâåíàäöàòü òûñÿ÷ "; break;
-    case 13: cout << "òðèíàäöàòü òûñÿ÷ "; break;
-    case 14: cout << "÷åòûðíàäöàòü òûñÿ÷ "; break;
-    case 15: cout << "ïÿòíàäöàòü òûñÿ÷ "; break;
-    case 16: cout << "øåñòíàäöàòü òûñÿ÷ "; break;
-    case 17: cout << "ñåìíàäöàòü òûñÿ÷ "; break;
-    case 18: cout << "âîñåìíàäöàòü òûñÿ÷ "; break;
-    case 19: cout << "äåâÿòíàäöàòü òûñÿ÷ "; break;
+    case 10: cout << "Ð´ÐµÑÑÑ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 11: cout << "Ð¾Ð´Ð¸Ð½Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 12: cout << "Ð´Ð²ÐµÐ½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 13: cout << "Ñ‚Ñ€Ð¸Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 14: cout << "Ñ‡ÐµÑ‚Ñ‹Ñ€Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 15: cout << "Ð¿ÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 16: cout << "ÑˆÐµÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 17: cout << "ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 18: cout << "Ð²Ð¾ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
+    case 19: cout << "Ð´ÐµÐ²ÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡ "; break;
     }
     }
     a=a%1000;
     switch (a / 100){
     case 0: cout << ""; break;
-    case 1: cout << "ñòî "; break;
-    case 2: cout << "äâåñòè "; break;
-    case 3: cout << "òðèñòà "; break;
-    case 4: cout << "÷åòûðåñòà "; break;
-    case 5: cout << "ïÿòüñîò "; break;
-    case 6: cout << "øåñòüñîò "; break;
-    case 7: cout << "ñåìüñîò "; break;
-    case 8: cout << "âîñåìüñîò "; break;
-    case 9: cout << "äåâÿòüñîò "; break;
+    case 1: cout << "ÑÑ‚Ð¾ "; break;
+    case 2: cout << "Ð´Ð²ÐµÑÑ‚Ð¸ "; break;
+    case 3: cout << "Ñ‚Ñ€Ð¸ÑÑ‚Ð° "; break;
+    case 4: cout << "Ñ‡ÐµÑ‚Ñ‹Ñ€ÐµÑÑ‚Ð° "; break;
+    case 5: cout << "Ð¿ÑÑ‚ÑŒÑÐ¾Ñ‚ "; break;
+    case 6: cout << "ÑˆÐµÑÑ‚ÑŒÑÐ¾Ñ‚ "; break;
+    case 7: cout << "ÑÐµÐ¼ÑŒÑÐ¾Ñ‚ "; break;
+    case 8: cout << "Ð²Ð¾ÑÐµÐ¼ÑŒÑÐ¾Ñ‚ "; break;
+    case 9: cout << "Ð´ÐµÐ²ÑÑ‚ÑŒÑÐ¾Ñ‚ "; break;
     }
     a=a%100;
     if (a/10 != 1){
     switch (a / 10){
-    case 2: cout << "äâàäöàòü "; break;
-    case 3: cout << "òðèäöàòü "; break;
-    case 4: cout << "ñîðîê "; break;
-    case 5: cout << "ïÿòüäåñÿò "; break;
-    case 6: cout << "øåñòüäåñÿò "; break;
-    case 7: cout << "ñåìüäåñÿò "; break;
-    case 8: cout << "âîñåìüäåñÿò "; break;
-    case 9: cout << "äåâÿíîñòî "; break;
+    case 2: cout << "Ð´Ð²Ð°Ð´Ñ†Ð°Ñ‚ÑŒ "; break;
+    case 3: cout << "Ñ‚Ñ€Ð¸Ð´Ñ†Ð°Ñ‚ÑŒ "; break;
+    case 4: cout << "ÑÐ¾Ñ€Ð¾Ðº "; break;
+    case 5: cout << "Ð¿ÑÑ‚ÑŒÐ´ÐµÑÑÑ‚ "; break;
+    case 6: cout << "ÑˆÐµÑÑ‚ÑŒÐ´ÐµÑÑÑ‚ "; break;
+    case 7: cout << "ÑÐµÐ¼ÑŒÐ´ÐµÑÑÑ‚ "; break;
+    case 8: cout << "Ð²Ð¾ÑÐµÐ¼ÑŒÐ´ÐµÑÑÑ‚ "; break;
+    case 9: cout << "Ð´ÐµÐ²ÑÐ½Ð¾ÑÑ‚Ð¾ "; break;
     case 0: cout << ""; break;
     }
     a = a % 10;
     switch (a/1){
     case 0: cout << ""; break;
-    case 1: cout << "îäèí"; break;
-    case 2: cout << "äâà "; break;
-    case 3: cout << "òðè"; break;
-    case 4: cout << "÷åòûðå"; break;
-    case 5: cout << "ïÿòü"; break;
-    case 6: cout << "øåñòü"; break;
-    case 7: cout << "ñåìü"; break;
-    case 8: cout << "âîñåìü"; break;
-    case 9: cout << "äåâÿòü "; break;
+    case 1: cout << "Ð¾Ð´Ð¸Ð½"; break;
+    case 2: cout << "Ð´Ð²Ð° "; break;
+    case 3: cout << "Ñ‚Ñ€Ð¸"; break;
+    case 4: cout << "Ñ‡ÐµÑ‚Ñ‹Ñ€Ðµ"; break;
+    case 5: cout << "Ð¿ÑÑ‚ÑŒ"; break;
+    case 6: cout << "ÑˆÐµÑÑ‚ÑŒ"; break;
+    case 7: cout << "ÑÐµÐ¼ÑŒ"; break;
+    case 8: cout << "Ð²Ð¾ÑÐµÐ¼ÑŒ"; break;
+    case 9: cout << "Ð´ÐµÐ²ÑÑ‚ÑŒ "; break;
     }
     }
     else{
             a = a% 100;
         switch (a/1){
-    case 10: cout << "äåñÿòü"; break;
-    case 11: cout << "îäèííàäöàòü "; break;
-    case 12: cout << "äâåíàäöàòü  "; break;
-    case 13: cout << "òðèíàäöàòü "; break;
-    case 14: cout << "÷åòûðíàäöàòü "; break;
-    case 15: cout << "ïÿòíàäöàòü "; break;
-    case 16: cout << "øåñòíàäöàòü "; break;
-    case 17: cout << "ñåìíàäöàòü  "; break;
-    case 18: cout << "âîñåìíàäöàòü "; break;
-    case 19: cout << "äåâÿòíàäöàòü "; break;
+    case 10: cout << "Ð´ÐµÑÑÑ‚ÑŒ"; break;
+    case 11: cout << "Ð¾Ð´Ð¸Ð½Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ "; break;
+    case 12: cout << "Ð´Ð²ÐµÐ½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ  "; break;
+    case 13: cout << "Ñ‚Ñ€Ð¸Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ "; break;
+    case 14: cout << "Ñ‡ÐµÑ‚Ñ‹Ñ€Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ "; break;
+    case 15: cout << "Ð¿ÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ "; break;
+    case 16: cout << "ÑˆÐµÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ "; break;
+    case 17: cout << "ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ  "; break;
+    case 18: cout << "Ð²Ð¾ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ "; break;
+    case 19: cout << "Ð´ÐµÐ²ÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ "; break;
     }
     }
     return 0;
