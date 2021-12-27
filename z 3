@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int s(int integer)
+{
+	int sum = 0;
+	for (int d = 1; d < integer; d++) 
+	{
+		if ((integer % d) == 0)
+			sum = sum + d;
+	}
+	return (sum);
+}
+
+int main()
+{
+	int a;
+	int sum1;
+	for (int integer = 1; integer < 10000; integer++) 
+	{
+		a = s(integer);
+		for (int b = (integer - 1); b > 0; b = b - 1) 
+		{
+			sum1 = s(b);
+			if ((a == b) && (integer == sum1)) 
+			{
+				cout << b << " " << integer << endl;
+			}
+		}
+	}
+	return 0;
+}
