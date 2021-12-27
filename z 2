@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int f(int integer)
+{
+    if (integer == 1 || integer == 2) 
+    {
+        return integer - 1;
+    }
+    else 
+    {
+        return f(integer - 1) + f(integer - 2);
+    }
+}
+
+int main()
+{
+    int integer;
+    int integer1;
+    cin >> integer;
+    integer1 = f(integer);
+    cout << f(integer);
+}
