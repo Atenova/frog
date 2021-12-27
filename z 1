@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+void kub(void)
+{
+	srand(time(0));
+	cout << rand() % 6 + 1 << endl;
+	cout << rand() % 6 + 1 << endl;
+}
+
+int main(void)
+{
+	kub();
+}
